@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbiting Dot Animation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="sketch.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #151515;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1 { margin-bottom: 8px; }
+        p { margin-top: 0; color: #ddd; }
+        canvas { border: 1px solid #555; }
+    </style>
+</head>
+<body>
+    <h1>Orbiting Dot Animation</h1>
+    <p>SPACE = Pause / Resume | UP / DOWN = Change Speed</p>
+</body>
+</html>
